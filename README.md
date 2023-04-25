@@ -1,5 +1,10 @@
 # Shelter (study project)
 
+PixelPerfect
+
+[deploy](https://noisekov.github.io/shelter/)
+[maket](https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter)
+
 ## Функционал
 1. Реализация burger menu на обеих страницах:
    - при ширине страницы меньше 768рх панель навигации скрывается, появляется бургер-иконка:
