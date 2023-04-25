@@ -42,7 +42,7 @@ function getData () {
         alert("нет данных от сервера")
     }
 }
-
+console.log(JSON.parse(getData ()))
 function createModalWindow (whatName) {
     let data = JSON.parse(getData ());
     let whatIndex = data.filter((x, i, arr) => {
