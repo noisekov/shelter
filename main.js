@@ -42,7 +42,7 @@ function getData () {
         alert("нет данных от сервера")
     }
 }
-console.log(JSON.parse(getData ()))
+
 function createModalWindow (whatName) {
     let data = JSON.parse(getData ());
     let whatIndex = data.filter((x, i, arr) => {
@@ -105,7 +105,7 @@ function closeModal (evt) {
 }
 
 //--------------------------------slider----------------------//
-if (location.pathname === "/") {
+if (location.pathname === "/shelter/") {
     function getDataCardForSlider () {
         let xhr = new XMLHttpRequest();
         const url = './pets.json';
@@ -327,7 +327,7 @@ if (location.pathname === "/") {
 }
 
 //--------------------------------pagination----------------------//
-if (location.pathname === "/page/our-pets.html") {
+if (location.pathname === "/shelter/page/our-pets.html") {
     function getData () {
         let xhr = new XMLHttpRequest();
         const url = './pets.json';
